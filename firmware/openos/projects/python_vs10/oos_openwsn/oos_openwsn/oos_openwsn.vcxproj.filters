@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{39bf5c35-ded4-4af0-8eb7-e4a08d740387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware">
+      <UniqueIdentifier>{cef6ad10-40ce-4180-a660-3f485fbff267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc">
+      <UniqueIdentifier>{3cedbae7-ff92-49dc-a603-f15af35ef8a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\bsp">
+      <UniqueIdentifier>{8ce9c900-b4ee-4b91-b54b-059219b55c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\drivers">
+      <UniqueIdentifier>{d4689f05-0b5d-41db-bf00-07d0f954ce9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\kernel">
+      <UniqueIdentifier>{559245f4-9014-439f-9cd7-5d820296589b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn">
+      <UniqueIdentifier>{c70a82d5-c0c8-4f4b-9f7d-bf189eff92c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\bsp\boards">
+      <UniqueIdentifier>{ee4783dc-db8b-46fb-94ce-149b25295ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\bsp\boards\python">
+      <UniqueIdentifier>{ef7d3784-43a2-4604-a3da-08e62ee465b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\drivers\common">
+      <UniqueIdentifier>{c224016a-8873-4b7e-9c2d-186dc4d93762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\kernel\openos">
+      <UniqueIdentifier>{5a07a529-ed5e-40d2-8f48-e8a107bb0a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\02a-MAClow">
+      <UniqueIdentifier>{9c48d121-ae12-4991-97cf-1650bf337ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\02b-MAChigh">
+      <UniqueIdentifier>{b83827a8-f17f-4f5e-91e2-77733049e2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\03a-IPHC">
+      <UniqueIdentifier>{9f859d3a-e8d3-44dc-bc76-b62e9c92abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\03b-IPv6">
+      <UniqueIdentifier>{6f43d688-59bf-4133-ae47-d8ebcf11f543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\04-TRAN">
+      <UniqueIdentifier>{73182dcb-2fe9-46ea-b44d-e859f4d834e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App">
+      <UniqueIdentifier>{84b03770-932b-4477-a739-bcbfc36b2c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\layerdebug">
+      <UniqueIdentifier>{d4abe089-4a96-4aa6-8608-20aac51816a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\ohlone">
+      <UniqueIdentifier>{6b4ac519-62ff-4228-965b-1372b90eb41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\r6t">
+      <UniqueIdentifier>{7046f28e-3840-4898-810b-4d6de3fb295f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\rex">
+      <UniqueIdentifier>{41df7174-9002-4312-a402-2aded4e1d40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\rinfo">
+      <UniqueIdentifier>{60f9d562-8e02-47fc-a0ab-b341fd987a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\rleds">
+      <UniqueIdentifier>{665a019e-72ca-4e4d-ab9a-738f77662f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\rreg">
+      <UniqueIdentifier>{942f8936-a42f-4c0f-9298-ddc98d5f436c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\rrt">
+      <UniqueIdentifier>{0e971aed-d92e-40c0-917f-f986a9df1b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\rwellknown">
+      <UniqueIdentifier>{49b1d6f2-6451-4bfb-b883-38d03889c964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\tcpecho">
+      <UniqueIdentifier>{6ba645cb-1cf3-40fd-8920-fe767ae2142f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\tcpinject">
+      <UniqueIdentifier>{f54dd149-1c69-4698-b997-dd001e6bf8c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\tcpprint">
+      <UniqueIdentifier>{ec8fb693-c982-4a44-abc4-aa54396d5687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\udpecho">
+      <UniqueIdentifier>{324d97ce-d9dc-40b6-8922-723241a96dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\udpinject">
+      <UniqueIdentifier>{f5641277-f0fd-4bd3-8bd7-7cb7e14de6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\udplatency">
+      <UniqueIdentifier>{589b8e3f-2f5c-4680-9075-b7c56ed4fc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\udpprint">
+      <UniqueIdentifier>{18fbac67-9c4b-4b9e-ae60-f8f142ffccb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\udprand">
+      <UniqueIdentifier>{84542738-1a4c-4a5c-bec0-f91086db6d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\07-App\udpstorm">
+      <UniqueIdentifier>{ee71e84d-0e11-4ad4-8556-adfc3b3792a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\python_gcc\openwsn\cross-layers">
+      <UniqueIdentifier>{2e797dc2-13ea-4fcf-9775-af0aa7c4429e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos">
+      <UniqueIdentifier>{65274c43-e8b9-416a-b119-4af1dda7b9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos\projects">
+      <UniqueIdentifier>{98edc225-9f2d-4a0c-9a5c-5625d8deb6f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos\projects\common">
+      <UniqueIdentifier>{ae27abc4-28b2-4304-bb0c-68787c3364ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos\projects\common\03oos_openwsn">
+      <UniqueIdentifier>{c892d50f-2cb9-49a5-b5f8-591df0dc9c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos\bsp">
+      <UniqueIdentifier>{4e7360d4-1984-41e6-97a0-43a05301c9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos\bsp\boards">
+      <UniqueIdentifier>{bddd49a5-29d7-4ac0-9341-e1b35f58f9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="firmware\openos\bsp\boards\python">
+      <UniqueIdentifier>{fbd6ca92-82ab-4a32-8a07-39bba97d0882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29">
+      <UniqueIdentifier>{f6392180-7077-46b5-b633-2f5967c2a71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware">
+      <UniqueIdentifier>{821666fb-322b-4bb4-9248-fba41752be01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos">
+      <UniqueIdentifier>{e107ee54-cea6-45c1-8643-ecd49d15ab25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp">
+      <UniqueIdentifier>{0c81909e-537d-42a2-b8e8-4d817e3b011b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards">
+      <UniqueIdentifier>{75641203-15c0-4f29-9246-0bea7635d6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python">
+      <UniqueIdentifier>{00671cdb-f4ff-4f95-b6af-4a0202e002b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers">
+      <UniqueIdentifier>{3d866b53-70e3-4e8f-9163-13118cc734de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common">
+      <UniqueIdentifier>{7191a894-ad22-4c78-832a-ff8209df6357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\kernel">
+      <UniqueIdentifier>{41bac70b-caaa-4d72-9f18-28da5f640789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\kernel\openos">
+      <UniqueIdentifier>{065e61cb-b2cd-4581-b19a-63948647ab26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn">
+      <UniqueIdentifier>{41cfe09e-ab47-4c23-8d1f-d7898ade48a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow">
+      <UniqueIdentifier>{69e951f4-0b84-4290-a6d7-217cc9c9fffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh">
+      <UniqueIdentifier>{ce9acfb7-3101-497f-bbfa-7f6ae5281b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03a-IPHC">
+      <UniqueIdentifier>{d4b1e76d-4017-4f2c-9a77-ebaa2da5b6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6">
+      <UniqueIdentifier>{2f5fe110-49cd-40d5-aadb-cdcde8acc47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN">
+      <UniqueIdentifier>{c3260276-b9f6-4e4d-9a13-145c333acb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App">
+      <UniqueIdentifier>{e0ec8977-fd33-45ba-b04c-3b25d6529a1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\layerdebug">
+      <UniqueIdentifier>{8f73d72a-d763-4f7d-812d-88370902f1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\ohlone">
+      <UniqueIdentifier>{ebef13be-6a41-4a0d-a973-1902904ed4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\r6t">
+      <UniqueIdentifier>{ea11d466-3c2d-4b97-84e8-fc74ba4e9ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rex">
+      <UniqueIdentifier>{cd9615a9-2237-4a06-8d20-2aa2decb43a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rinfo">
+      <UniqueIdentifier>{93385cd8-312d-48ce-bd8f-4bca504d30a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rleds">
+      <UniqueIdentifier>{fbe295ea-8741-4907-a40d-179f23df4d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rreg">
+      <UniqueIdentifier>{3dcad487-ee88-41aa-9bf6-22daa3e19fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rrt">
+      <UniqueIdentifier>{aa1f490c-3963-4714-b3cc-95f7729d4eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rwellknown">
+      <UniqueIdentifier>{e776cdd6-6666-4ab1-a923-722f08bec9c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpecho">
+      <UniqueIdentifier>{1c929a4f-ed96-483f-b23b-c15d399597b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpinject">
+      <UniqueIdentifier>{82572324-4c72-43a6-819e-69521a917558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpprint">
+      <UniqueIdentifier>{9a1faa9d-9179-41f2-8f27-78537a75fda7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpecho">
+      <UniqueIdentifier>{1819653b-7118-4cfa-8fd0-0018914fb4ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpinject">
+      <UniqueIdentifier>{9ca15f7b-8547-40cc-8810-81ec22e73c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udplatency">
+      <UniqueIdentifier>{e156f49e-2a99-48b4-a010-9f96c0b28b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpprint">
+      <UniqueIdentifier>{f36166b5-16bc-45db-b990-3ae0aecc2814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udprand">
+      <UniqueIdentifier>{d225f3d8-ba64-4ba1-9473-ae95b896b0b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpstorm">
+      <UniqueIdentifier>{7d121bf9-4621-4f15-bd84-6c8f93b88463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers">
+      <UniqueIdentifier>{2b3c207a-8ddb-4842-9037-5eb1d3f0cbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\projects">
+      <UniqueIdentifier>{ed7ac07b-eb78-4e89-b99d-227455917636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\projects\common">
+      <UniqueIdentifier>{c096e3f0-079a-4445-ac5c-05efe47ba25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X_Excluded from Build %28Just for Edit%29\firmware\openos\projects\common\03oos_openwsn">
+      <UniqueIdentifier>{902a8078-382e-4c29-89bd-e8fdbc50ad24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\common\03oos_openwsn\03oos_openwsn_obj.c">
+      <Filter>firmware\openos\projects\common\03oos_openwsn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\adaptive_sync_obj.c">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\board_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\bsp_timer_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\debugpins_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\eui64_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\forwarding_obj.c">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6_obj.c">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6echo_obj.c">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6rpl_obj.c">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\idmanager_obj.c">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154_obj.c">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154E_obj.c">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\iphc_obj.c">
+      <Filter>build\python_gcc\openwsn\03a-IPHC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\layerdebug\layerdebug_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\layerdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\leds_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\neighbors_obj.c">
+      <Filter>build\python_gcc\openwsn\02b-MAChigh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\ohlone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_webpages_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\ohlone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\openbridge_obj.c">
+      <Filter>build\python_gcc\openwsn\03a-IPHC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opencoap_obj.c">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openhdlc_obj.c">
+      <Filter>build\python_gcc\drivers\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openqueue_obj.c">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openrandom_obj.c">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openserial_obj.c">
+      <Filter>build\python_gcc\drivers\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opentcp_obj.c">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\drivers\common\opentimers_obj.c">
+      <Filter>build\python_gcc\drivers\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\openudp_obj.c">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\openwsn_obj.c">
+      <Filter>build\python_gcc\openwsn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\openwsnmodule_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\packetfunctions_obj.c">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\r6t\r6t_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\r6t</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\radio_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\radiotimer_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\res_obj.c">
+      <Filter>build\python_gcc\openwsn\02b-MAChigh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rex\rex_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\rex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rinfo\rinfo_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\rinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rleds\rleds_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\rleds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rreg\rreg_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\rreg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rrt\rrt_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\rrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rwellknown\rwellknown_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\rwellknown</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\schedule_obj.c">
+      <Filter>build\python_gcc\openwsn\02b-MAChigh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\kernel\openos\scheduler_obj.c">
+      <Filter>build\python_gcc\kernel\openos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\supply_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpecho\tcpecho_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\tcpecho</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpinject\tcpinject_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\tcpinject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpprint\tcpprint_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\tcpprint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\topology_obj.c">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\uart_obj.c">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpecho\udpecho_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\udpecho</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpinject\udpinject_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\udpinject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udplatency\udplatency_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\udplatency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpprint\udpprint_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\udpprint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udprand\udprand_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\udprand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpstorm\udpstorm_obj.c">
+      <Filter>build\python_gcc\openwsn\07-App\udpstorm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\rsvp_obj.c">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\03oos_openwsn\03oos_openwsn.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\projects\common\03oos_openwsn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\adaptive_sync.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154E.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\topology.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02b-MAChigh\neighbors.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02b-MAChigh\res.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02b-MAChigh\schedule.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03a-IPHC\iphc.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03a-IPHC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03a-IPHC\openbridge.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03a-IPHC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\forwarding.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\icmpv6.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\icmpv6echo.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\icmpv6rpl.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\opencoap.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\opentcp.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\openudp.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\rsvp.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\layerdebug\layerdebug.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\layerdebug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\ohlone\ohlone.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\ohlone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\ohlone\ohlone_webpages.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\ohlone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\r6t\r6t.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\r6t</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rex\rex.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rinfo\rinfo.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rleds\rleds.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rleds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rreg\rreg.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rreg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rrt\rrt.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rrt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rwellknown\rwellknown.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rwellknown</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\tcpecho\tcpecho.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpecho</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\tcpinject\tcpinject.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpinject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\tcpprint\tcpprint.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpprint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpecho\udpecho.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpecho</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpinject\udpinject.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpinject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udplatency\udplatency.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udplatency</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpprint\udpprint.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpprint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udprand\udprand.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udprand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpstorm\udpstorm.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpstorm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\idmanager.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\openqueue.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\openrandom.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\packetfunctions.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\openwsn.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\openwsnmodule.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\board_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\bsp_timer_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\debugpins_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\eui64_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\leds_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\radio_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\radiotimer_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\supply_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\uart_obj.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\openwsnmodule_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpecho\tcpecho_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\tcpecho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\python\board_info.h">
+      <Filter>firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openhdlc_obj.h">
+      <Filter>build\python_gcc\drivers\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openserial_obj.h">
+      <Filter>build\python_gcc\drivers\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\drivers\common\opentimers_obj.h">
+      <Filter>build\python_gcc\drivers\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\board_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\bsp_timer_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\debugpins_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\eui64_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\leds_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\radio_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\radiotimer_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\uart_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\supply_obj.h">
+      <Filter>build\python_gcc\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\kernel\openos\scheduler_obj.h">
+      <Filter>build\python_gcc\kernel\openos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\openwsn_obj.h">
+      <Filter>build\python_gcc\openwsn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\adaptive_sync_obj.h">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154_obj.h">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154E_obj.h">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\topology_obj.h">
+      <Filter>build\python_gcc\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\neighbors_obj.h">
+      <Filter>build\python_gcc\openwsn\02b-MAChigh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\res_obj.h">
+      <Filter>build\python_gcc\openwsn\02b-MAChigh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\schedule_obj.h">
+      <Filter>build\python_gcc\openwsn\02b-MAChigh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\iphc_obj.h">
+      <Filter>build\python_gcc\openwsn\03a-IPHC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\openbridge_obj.h">
+      <Filter>build\python_gcc\openwsn\03a-IPHC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\forwarding_obj.h">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6_obj.h">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6echo_obj.h">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6rpl_obj.h">
+      <Filter>build\python_gcc\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opencoap_obj.h">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opentcp_obj.h">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\openudp_obj.h">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\rsvp_obj.h">
+      <Filter>build\python_gcc\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\layerdebug\layerdebug_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\layerdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\ohlone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_webpages_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\ohlone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\r6t\r6t_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\r6t</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rex\rex_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\rex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rinfo\rinfo_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\rinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rleds\rleds_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\rleds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rreg\rreg_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\rreg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rrt\rrt_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\rrt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rwellknown\rwellknown_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\rwellknown</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpinject\tcpinject_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\tcpinject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpprint\tcpprint_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\tcpprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpecho\udpecho_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\udpecho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpinject\udpinject_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\udpinject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udplatency\udplatency_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\udplatency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpprint\udpprint_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\udpprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udprand\udprand_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\udprand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpstorm\udpstorm_obj.h">
+      <Filter>build\python_gcc\openwsn\07-App\udpstorm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\idmanager_obj.h">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openqueue_obj.h">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openrandom_obj.h">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\packetfunctions_obj.h">
+      <Filter>build\python_gcc\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\adaptive_sync.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154E.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\topology.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02a-MAClow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02b-MAChigh\neighbors.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02b-MAChigh\res.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02b-MAChigh\schedule.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\02b-MAChigh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03a-IPHC\iphc.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03a-IPHC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03a-IPHC\openbridge.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03a-IPHC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\forwarding.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\icmpv6.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\icmpv6echo.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\icmpv6rpl.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\03b-IPv6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\opencoap.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\opentcp.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\openudp.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\rsvp.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\04-TRAN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\layerdebug\layerdebug.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\layerdebug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\ohlone\ohlone.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\ohlone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\ohlone\ohlone_webpages.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\ohlone</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\r6t\r6t.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\r6t</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rex\rex.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rinfo\rinfo.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rinfo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rleds\rleds.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rleds</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rreg\rreg.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rreg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rrt\rrt.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rrt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rwellknown\rwellknown.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\rwellknown</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\tcpecho\tcpecho.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpecho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\tcpinject\tcpinject.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpinject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\tcpprint\tcpprint.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\tcpprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpecho\udpecho.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpecho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpinject\udpinject.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpinject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udplatency\udplatency.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udplatency</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpprint\udpprint.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpprint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udprand\udprand.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udprand</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpstorm\udpstorm.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\07-App\udpstorm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\idmanager.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\openqueue.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\openrandom.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\packetfunctions.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn\cross-layers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\openwsn.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\openwsn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\board.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\bsp_timer.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\debugpins.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\eui64.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\leds.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\radio.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\radiotimer.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\uart.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\python\openwsnmodule_obj.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\python\supply_obj.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Python27\include\pyconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Notes.txt" />
+    <None Include="..\PreRequirements.txt" />
+  </ItemGroup>
+</Project>

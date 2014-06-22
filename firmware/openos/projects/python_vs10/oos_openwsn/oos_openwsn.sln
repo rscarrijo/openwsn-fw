@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oos_openwsn", "oos_openwsn\oos_openwsn.vcxproj", "{6181B695-6116-48CB-8595-A1EFA30F6F40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6181B695-6116-48CB-8595-A1EFA30F6F40}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6181B695-6116-48CB-8595-A1EFA30F6F40}.Debug|Win32.Build.0 = Debug|Win32
+		{6181B695-6116-48CB-8595-A1EFA30F6F40}.Release|Win32.ActiveCfg = Release|Win32
+		{6181B695-6116-48CB-8595-A1EFA30F6F40}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
