@@ -585,6 +585,15 @@
     <ClCompile Include="..\..\..\..\bsp\boards\python\uart_obj.c">
       <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\bsp\boards\python</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\drivers\common\openhdlc.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\drivers\common\openserial.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\drivers\common\opentimers.c">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\openwsnmodule_obj.h">
@@ -910,6 +919,15 @@
     </ClInclude>
     <ClInclude Include="C:\Python27\include\pyconfig.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\drivers\common\openhdlc.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\drivers\common\openserial.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\drivers\common\opentimers.h">
+      <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
