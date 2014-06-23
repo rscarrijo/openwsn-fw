@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\board_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\bsp_timer_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\debugpins_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\eui64_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\leds_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\radiotimer_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\radio_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\supply_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\uart_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openhdlc_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openserial_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\drivers\common\opentimers_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\kernel\openos\scheduler_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\adaptive_sync_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154E_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\topology_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\neighbors_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\res_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\schedule_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\iphc_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\openbridge_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\forwarding_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6echo_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6rpl_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opencoap_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opentcp_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\openudp_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\rsvp_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\layerdebug\layerdebug_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_webpages_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\r6t\r6t_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rex\rex_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rinfo\rinfo_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rleds\rleds_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rreg\rreg_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rrt\rrt_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rwellknown\rwellknown_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpecho\tcpecho_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpinject\tcpinject_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpprint\tcpprint_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpecho\udpecho_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpinject\udpinject_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udplatency\udplatency_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpprint\udpprint_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udprand\udprand_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpstorm\udpstorm_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\idmanager_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openqueue_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openrandom_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\packetfunctions_obj.c" />
+    <ClCompile Include="..\..\..\..\..\..\build\python_gcc\openwsn\openwsn_obj.c" />
+    <ClCompile Include="..\..\..\..\bsp\boards\python\board_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\bsp_timer_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\debugpins_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\eui64_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\leds_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\openwsnmodule.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\openwsnmodule_obj.c" />
+    <ClCompile Include="..\..\..\..\bsp\boards\python\radiotimer_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\radio_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\supply_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\bsp\boards\python\uart_obj.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\drivers\common\openhdlc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\drivers\common\openserial.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\drivers\common\opentimers.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\adaptive_sync.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154E.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02a-MAClow\topology.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02b-MAChigh\neighbors.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02b-MAChigh\res.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\02b-MAChigh\schedule.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03a-IPHC\iphc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03a-IPHC\openbridge.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\forwarding.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\icmpv6.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\icmpv6echo.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\03b-IPv6\icmpv6rpl.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\opencoap.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\opentcp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\openudp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\04-TRAN\rsvp.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\layerdebug\layerdebug.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\ohlone\ohlone.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\ohlone\ohlone_webpages.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\r6t\r6t.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rex\rex.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rinfo\rinfo.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rleds\rleds.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rreg\rreg.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rrt\rrt.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\rwellknown\rwellknown.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\tcpecho\tcpecho.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\tcpinject\tcpinject.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\tcpprint\tcpprint.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpecho\udpecho.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpinject\udpinject.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udplatency\udplatency.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpprint\udpprint.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udprand\udprand.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\07-App\udpstorm\udpstorm.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\idmanager.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\openqueue.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\openrandom.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\cross-layers\packetfunctions.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\openwsn\openwsn.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\03oos_openwsn\03oos_openwsn.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\common\03oos_openwsn\03oos_openwsn_obj.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\board_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\bsp_timer_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\debugpins_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\eui64_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\leds_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\openwsnmodule_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\python\supply_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\radiotimer_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\radio_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\bsp\boards\uart_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openhdlc_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\drivers\common\openserial_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\drivers\common\opentimers_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\kernel\openos\scheduler_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\adaptive_sync_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154E_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\IEEE802154_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow\topology_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\neighbors_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\res_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh\schedule_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\iphc_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC\openbridge_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\forwarding_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6echo_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6rpl_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6\icmpv6_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opencoap_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\opentcp_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\openudp_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN\rsvp_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\layerdebug\layerdebug_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone\ohlone_webpages_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\r6t\r6t_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rex\rex_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rinfo\rinfo_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rleds\rleds_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rreg\rreg_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rrt\rrt_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rwellknown\rwellknown_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpecho\tcpecho_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpinject\tcpinject_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpprint\tcpprint_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpecho\udpecho_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpinject\udpinject_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udplatency\udplatency_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpprint\udpprint_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udprand\udprand_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpstorm\udpstorm_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\idmanager_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openqueue_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\openrandom_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers\packetfunctions_obj.h" />
+    <ClInclude Include="..\..\..\..\..\..\build\python_gcc\openwsn\openwsn_obj.h" />
+    <ClInclude Include="..\..\..\..\bsp\boards\board.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\bsp_timer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\debugpins.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\eui64.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\leds.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\python\board_info.h" />
+    <ClInclude Include="..\..\..\..\bsp\boards\python\openwsnmodule_obj.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\python\supply_obj.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\radio.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\radiotimer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\bsp\boards\uart.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\drivers\common\openhdlc.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\drivers\common\openserial.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\drivers\common\opentimers.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\adaptive_sync.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\IEEE802154E.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02a-MAClow\topology.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02b-MAChigh\neighbors.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02b-MAChigh\res.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\02b-MAChigh\schedule.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03a-IPHC\iphc.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03a-IPHC\openbridge.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\forwarding.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\icmpv6.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\icmpv6echo.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\03b-IPv6\icmpv6rpl.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\opencoap.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\opentcp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\openudp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\04-TRAN\rsvp.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\layerdebug\layerdebug.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\ohlone\ohlone.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\ohlone\ohlone_webpages.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\r6t\r6t.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rex\rex.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rinfo\rinfo.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rleds\rleds.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rreg\rreg.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rrt\rrt.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\rwellknown\rwellknown.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\tcpecho\tcpecho.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\tcpinject\tcpinject.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\tcpprint\tcpprint.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpecho\udpecho.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpinject\udpinject.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udplatency\udplatency.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpprint\udpprint.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udprand\udprand.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\07-App\udpstorm\udpstorm.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\idmanager.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\openqueue.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\openrandom.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\cross-layers\packetfunctions.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\openwsn\openwsn.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\common\03oos_openwsn\udp_log_message.h" />
+    <ClInclude Include="C:\Python27\include\pyconfig.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Notes.txt" />
+    <None Include="..\PreRequirements.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6181B695-6116-48CB-8595-A1EFA30F6F40}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>oos_openwsn</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Python27\include;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\bsp\boards\python;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\drivers\common;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\kernel\openos;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\bsp\boards;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rrt;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rwellknown;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpinject;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpinject;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rinfo;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\r6t;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rleds;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpprint;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udprand;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpecho;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpecho;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpprint;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpstorm;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udplatency;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Python27\libs;$(LibraryPath)</LibraryPath>
+    <TargetExt>.pyd</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Python27\include;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\bsp\boards\python;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\drivers\common;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\kernel\openos;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\bsp\boards;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\02a-MAClow;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\02b-MAChigh;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\03a-IPHC;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\03b-IPv6;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\04-TRAN;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\ohlone;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rrt;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rwellknown;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpinject;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpinject;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rinfo;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\cross-layers;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\r6t;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\rleds;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpprint;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udprand;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpecho;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpecho;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\tcpprint;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udpstorm;$(ProjectDir)\..\..\..\..\..\..\build\python_gcc\openwsn\07-App\udplatency;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Python27\libs;$(LibraryPath)</LibraryPath>
+    <TargetExt>.pyd</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;OOS_OPENWSN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;OOS_OPENWSN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy  $(OutDir)$(TargetName)$(TargetExt)  $(ProjectDir)\..\..\..\common\oos_openwsn.pyd
+
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
