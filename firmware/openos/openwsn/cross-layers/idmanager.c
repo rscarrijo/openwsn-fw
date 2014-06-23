@@ -33,6 +33,8 @@ void idmanager_init() {
 
 bool idmanager_getIsDAGroot() {
    bool res;
+
+   udp_log_message("idmanager_getIsDAGroot()");
    INTERRUPT_DECLARATION();
    
    DISABLE_INTERRUPTS();
@@ -42,6 +44,7 @@ bool idmanager_getIsDAGroot() {
 }
 
 void idmanager_setIsDAGroot(bool newRole) {
+   udp_log_message("idmanager_setIsDAGroot()");
    INTERRUPT_DECLARATION();
    DISABLE_INTERRUPTS();
    idmanager_vars.isDAGroot = newRole;
@@ -51,6 +54,8 @@ void idmanager_setIsDAGroot(bool newRole) {
 
 bool idmanager_getIsBridge() {
    bool res;
+
+   udp_log_message("idmanager_getIsBridge()");
    INTERRUPT_DECLARATION();
    DISABLE_INTERRUPTS();
    res=idmanager_vars.isBridge;
@@ -59,6 +64,8 @@ bool idmanager_getIsBridge() {
 }
 
 void idmanager_setIsBridge(bool newRole) {
+
+   udp_log_message("idmanager_setIsBridge()");
    INTERRUPT_DECLARATION();
    DISABLE_INTERRUPTS();
    idmanager_vars.isBridge = newRole;
@@ -68,6 +75,8 @@ void idmanager_setIsBridge(bool newRole) {
 
 open_addr_t* idmanager_getMyID(uint8_t type) {
    open_addr_t* res;
+
+   udp_log_message("idmanager_getMyID()");
    INTERRUPT_DECLARATION();
    DISABLE_INTERRUPTS();
    switch (type) {
@@ -97,6 +106,9 @@ open_addr_t* idmanager_getMyID(uint8_t type) {
 }
 
 owerror_t idmanager_setMyID(open_addr_t* newID) {
+
+   udp_log_message("idmanager_setMyID()");
+
    INTERRUPT_DECLARATION();
    DISABLE_INTERRUPTS();
    switch (newID->type) {
@@ -128,6 +140,8 @@ owerror_t idmanager_setMyID(open_addr_t* newID) {
 bool idmanager_isMyAddress(open_addr_t* addr) {
    open_addr_t temp_my128bID;
    bool res;
+
+   udp_log_message("idmanager_isMyAddress()");
    INTERRUPT_DECLARATION();
    DISABLE_INTERRUPTS();
 
@@ -169,6 +183,9 @@ bool idmanager_isMyAddress(open_addr_t* addr) {
 void idmanager_triggerAboutRoot() {
    uint8_t number_bytes_from_input_buffer;
    uint8_t input_buffer;
+
+   udp_log_message("idmanager_triggerAboutRoot()");
+
    // get command from OpenSerial
    number_bytes_from_input_buffer = openserial_getInputBuffer(&input_buffer,sizeof(input_buffer));
    if (number_bytes_from_input_buffer!=sizeof(input_buffer)) {
@@ -199,6 +216,8 @@ void idmanager_triggerAboutRoot() {
 void idmanager_triggerAboutBridge() {
    uint8_t number_bytes_from_input_buffer;
    uint8_t input_buffer;
+
+   udp_log_message("idmanager_triggerAboutBridge()");
    //get command from OpenSerial
    number_bytes_from_input_buffer = openserial_getInputBuffer(&input_buffer,sizeof(input_buffer));
    if (number_bytes_from_input_buffer!=sizeof(input_buffer)) {
@@ -236,6 +255,8 @@ status information about several modules in the OpenWSN stack.
 */
 bool debugPrint_id() {
    debugIDManagerEntry_t output;
+
+   udp_log_message("debugPrint_id()");
    output.isDAGroot = idmanager_vars.isDAGroot;
    output.isBridge  = idmanager_vars.isBridge;
    output.my16bID   = idmanager_vars.my16bID;
