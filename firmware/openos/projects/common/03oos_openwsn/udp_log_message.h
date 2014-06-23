@@ -85,7 +85,7 @@
 	//char buffer[512]; 
 
 	// TODO
-	void initialize_udpLogMessage()
+	void initialize_udp_log_message()
 	{
 		//sock= socket(AF_INET, SOCK_DGRAM, 0); 
 		////if (sock < 0) error("socket"); 
@@ -101,12 +101,12 @@
 		//length=sizeof(struct sockaddr_in); 		
 	}
 
-	void udpLogMessage(const char *message)
+	void udp_log_message(const char *message)
 	{
 		//n=sendto(sock,message, 512,0,&server,length); 	
 	}
 
-	void terminate_udpLogMessage()
+	void terminate_udp_log_message()
 	{
 	
 	}
