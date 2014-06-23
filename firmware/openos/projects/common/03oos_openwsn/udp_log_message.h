@@ -1,3 +1,8 @@
+/**
+\brief simple code to send udp messages (ipv4) for debug purposes
+
+\author Renato Carrijo <rscarrijo@outlook.com>, June 2014
+*/
 #ifndef __UDP_LOG_MESSAGE_H
 #define __UDP_LOG_MESSAGE_H
 
@@ -58,6 +63,8 @@
 		WSACleanup();
 	}
 #else /* GCC compiler */
+
+	//TBD. by rsc
 
 	//#include <sys/types.h> 
 	//#include <sys/socket.h> 
