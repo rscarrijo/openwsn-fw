@@ -929,6 +929,9 @@
     <ClInclude Include="..\..\..\..\drivers\common\opentimers.h">
       <Filter>X_Excluded from Build %28Just for Edit%29\firmware\openos\drivers\common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\common\03oos_openwsn\udp_log_message.h">
+      <Filter>firmware\openos\projects\common\03oos_openwsn</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Notes.txt" />

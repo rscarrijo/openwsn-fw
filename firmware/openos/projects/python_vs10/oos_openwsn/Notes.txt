@@ -2,11 +2,11 @@
 GENERAL INSTRUCTIONS:
 -------------------------------------------------------------------------------
 INFO: the "X_Excluded from Build (Just for Edit") folder must be used to edit
-      source code using VS2010. After that, you need:
+      source code using Visual Studio. After that, you need:
 
 	  a) Objectify the C code to Python extension module. Use scons ...
 	  b) Compile the oos_openwsn to generate "oos_openwsn.pyd"
-udprand
+
 Obs.: When the build succeeds, the Python module will be copied to
       openwsn-fw\firmware\openos\projects\common\oos_openwsn.pyd
   
@@ -15,7 +15,7 @@ Warning:
 		The *obj.h and *obj.c files was 'objectified' by SCons as a
 		pre-processing step for the building a Python extension module.
 
-Before compile using VS2010:
+Before compile using Visual Studio:
 	Open command line, go to openwsn-fw path and run:  
 
 	scons board=python toolchain=gcc oos_openwsn
